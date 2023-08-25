@@ -1,0 +1,93 @@
+*{
+    background-color: rgb(236, 255, 254);
+    font: 1em "Fira Sans", sans-serif;
+}
+
+img.animated-gif{
+    width: 35%;
+    height: auto;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+
+    box-shadow: 0 1px 1px rgba(0,0,0,0.16), 0 2px 2px rgba(0,0,0,0.16), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.16), 0 16px 16px rgba(0,0,0,0.16);
+}
+
+.imgradius{
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+}
+
+a{
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+
+
+p{
+    margin: 30px auto 30px auto;
+    text-align: justify;
+    background: #135043;
+    color: #ffffff;
+    padding: 15px;
+    max-width: 800px;
+    
+}
+
+#theButton{
+    background-color: #000000; /* Green */
+    border: #135043 5px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+#listA{
+    color: #089072;
+    order: 3;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#list2{
+    color: #089072;
+    order: 4;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#firstTitle{
+    order: 1;
+    text-align: center;
+}
+
+#secondTitle{
+    order: 2;
+    text-align: center;
+}
+
+#links{
+    display: flex;
+    grid-column-gap: 20px; 
+}
